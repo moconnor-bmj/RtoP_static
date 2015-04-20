@@ -5857,3 +5857,61 @@ h3.author-name {
 	margin-right: 1.618em
 }
 }
+
+/* ACCORDIAN CSS */
+
+.accordion {
+    margin:1em 0
+}
+
+ 
+.accordion h3 {
+    background:url('../images/accordion-default.png') no-repeat right top #2a6ebb;
+    color:#fff;
+    cursor:pointer;
+    margin:0;
+    padding:4px 10px
+}
+.accordion h3.current {
+    background:url('../images/accordion-active.png') no-repeat right top #96b1d0;
+    cursor:default
+}
+
+.accordion h3.soon {
+    background:url('../images/accordion-default.png') no-repeat right top #dedede;
+    color:#fff;
+    cursor:pointer;
+    margin:0;
+    padding:4px 10px
+}
+
+.accordion h3. current.soon {
+    background:url('../images/accordion-active.png') no-repeat right top #dedede;
+    cursor:default
+}
+
+.accordion .pane {
+    padding:5px 10px
+}
+
+.pane ul.inactive {
+  color: #ccc;
+  border: 1px solid #dedede;
+	border-bottom: 3px solid #dedede;
+	margin-top: -6px; 
+}
+
+.pane ul {
+  border: 1px solid #96b1d0;
+	border-bottom: 3px solid #96b1d0;
+	margin-top: -6px; 
+}
+
+.pane ul li {
+    font-size: .85rem; 
+    padding: 4px;
+}
+
+.pane ul li:first-child {
+    margin-top: .85rem; 
+}
