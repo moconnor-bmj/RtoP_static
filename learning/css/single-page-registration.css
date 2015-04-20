@@ -1,0 +1,274 @@
+    
+    /* PAGE STRUCTURE ----------------------
+    ======================================== */
+    
+    .single-page-registration {
+        border: 1px solid #ccc;
+        margin: 20px 0 30px;
+    }
+    .single-page-proposition { padding: 20px; }
+    .single-page-capture {
+        border: 25px solid #ECECEC;
+        box-shadow: 0 0 0 1px #C8C8C8; 
+    }
+    .single-page-capture aside {
+        border: 1px solid #C8C8C8;
+        box-shadow: 0 3px 0 #C8C8C8;
+    }
+    .ie8 .single-page-capture aside { margin-top: -20px; }
+    
+    article aside ul li:before { content: none; }
+    
+    /* BUTTONS -----------------------------
+    ======================================== */
+    
+    aside #create-account-button, 
+    aside #login-button,
+    aside #create-account-button[disabled=disabled]:hover, 
+    aside #login-button[disabled=disabled]:hover {
+        border: 1px solid #F4B17C;
+        background: #ec7210; /* Old browsers */
+        background: -moz-linear-gradient(top, #ec7210 0%, #ec7210 50%, #e25c09 51%, #e25c09 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec7210), color-stop(50%,#ec7210), color-stop(51%,#e25c09), color-stop(100%,#e25c09)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #ec7210 0%,#ec7210 50%,#e25c09 51%,#e25c09 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #ec7210 0%,#ec7210 50%,#e25c09 51%,#e25c09 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #ec7210 0%,#ec7210 50%,#e25c09 51%,#e25c09 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #ec7210 0%,#ec7210 50%,#e25c09 51%,#e25c09 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec7210', endColorstr='#e25c09',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 0px 1px 1px #E1560F;
+    }
+    aside #create-account-button:hover,
+    aside #login-button:hover {
+        background: #e25600; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e25600 0%, #e25600 50%, #c45100 53%, #c45100 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e25600), color-stop(50%,#e25600), color-stop(53%,#c45100), color-stop(100%,#c45100)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #e25600 0%,#e25600 50%,#c45100 53%,#c45100 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #e25600 0%,#e25600 50%,#c45100 53%,#c45100 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #e25600 0%,#e25600 50%,#c45100 53%,#c45100 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #e25600 0%,#e25600 50%,#c45100 53%,#c45100 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25600', endColorstr='#c45100',GradientType=0 ); /* IE6-9 */
+    }
+    
+    /* TABS --------------------------------
+    ======================================== */
+    
+    .nav-tabs > li {
+        text-align: center;
+        width: 50%;
+        padding: 0;
+        font-size: 0.95rem;
+    }
+    .ie7 .nav-tabs > li,
+    .ie8 .nav-tabs > li { width: 45%; }
+    .nav-tabs { border-bottom-width: 0; }
+    .nav-tabs li a {
+        border-top-color: #e8e8e8;
+        border-right-color: #e8e8e8;
+        border-bottom-color: #c8c8c8;
+        border-left-color: #e8e8e8;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        background-color: #e8e8e8;
+        margin: 0 !important;
+        color: #555 !important;
+        outline: 0;
+    }
+    .nav-tabs li:first-child a { border-right-color: #c8c8c8; border-bottom-color: #c8c8c8; }
+    .nav-tabs li:last-child a { border-left-color: #c8c8c8; border-bottom-color: #c8c8c8; }
+    .nav-tabs li.active a,
+    .nav-tabs li.active a:hover,
+    .nav-tabs li.active a:active,
+    .nav-tabs li.active a:focus { border: 1px solid #FFF !important; }
+    .nav-tabs li.active a {
+        font-weight: bold;
+        border-color: #FFF;
+        color: #555 !important;
+    }
+    
+    /* Start of IE7/IE8 template fix */
+    
+    .ie7 .collapse,
+    .ie8 .collapse {
+	height: auto;
+    }
+	
+    .ie7 .searchbar .collapse,
+    .ie8 .searchbar .collapse {
+	display: block;
+    }
+	
+    .marketing-bar,
+    #content > .nav { display: none; }
+	
+    .ie7 header h1,
+    .ie8 header h1 { display: none; }
+    
+    .ie7 header .searchbar,
+    .ie8 header .searchbar { float: right; }
+    
+    .ie7 .global-footer ul,
+    .ie8 .global-footer ul {
+    	text-align: right;
+    	margin: 18px 15px 9px 0;
+    }
+    
+    .ie7 .global-footer ul li,
+    .ie8 .global-footer ul li,
+    .ie7 .global-footer ul li a,
+    .ie8 .global-footer ul li a {
+    	display: inline;
+    }
+    
+    .ie7 .footer-heading i,
+    .ie8 .footer-heading i {
+    	display: none;
+    }
+    
+    .ie7 .footer-heading:hover,
+    .ie8 .footer-heading:hover {
+    	text-decoration: none;
+    	cursor: default;
+    }
+    
+	.ie7 .nav-tabs,
+	.ie8 .nav-tabs {
+		border: 0px solid #ddd;
+		margin-bottom: 20px;
+	}
+     
+    
+    /* End of IE7/IE8 template fix */
+    
+    /* MARKETING OPTIN  --------------------
+    ======================================== */
+    
+    .bmjOptin {
+        display: inline-block;
+        font-size: 0.9em;
+        line-height: 1.1em;
+        width: 90%;
+    }
+    .bmjOptin #bmj-optin-checkbox {
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+    
+    /* LOGIN REMEMBER ME -------------------
+	======================================== */
+	
+	.remember .controls { display: block; }
+    .remember label {
+		display: inline-block;
+		font-size: 0.9em;
+		line-height: 1.1em;
+	}
+    .remember label #rememberme {
+		margin-top: -5px;
+		margin-right: 5px;
+	}
+
+    /* BMJ/ACCESS RADIO BUTTONS ------------
+	======================================== */
+	
+	.single-page-capture .radio {
+		display: inline-block;
+		font-size: 1.1em;
+	}
+	
+	.ie7 .single-page-capture .radio,
+	.ie8 .single-page-capture .radio {
+		font-size: 0.9em;
+	}
+	
+	.single-page-capture .radio input { margin-top: 6px; }
+	    
+	.ie7 .single-page-capture .radio input,
+	.ie8 .single-page-capture .radio input {
+		margin-top: 2px;
+	}
+	
+	/* ERRORS ------------------------------
+	======================================== */
+	
+	.error.help-inline {
+		color: #CD202C;
+		display: block;
+		font-size: 0.7rem;
+		line-height: 1.2rem;
+		padding: 0;
+		min-width: 150px;
+	}
+	input.error,
+	select.error {
+		background-color: #FFD9D9;
+		border: 1px inset #CD202C;
+		margin: 6px 0;
+		overflow: hidden;
+		padding: 4px 6px;
+	}
+	input.error.help-inline,
+	select.error.help-inline { padding: 4px 6px; }
+	span.error {
+		color: #CD202C;
+		display: block;
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+		margin: 0 0 10px;
+	}
+	span.required {
+		color: #CD202C;
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+		margin: 0 0 10px;
+	}
+	p.compulsory-message span {
+		color: #CD202C;
+		display: inline;
+		line-height: 1.2rem;
+	}
+	span#email-error.help-inline {
+		color: #CD202C;
+		display: block;
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+		margin: 0 0 10px;
+		padding: 0;
+	}
+	
+	/* TABLET ------------------------------
+	======================================== */
+	
+	@media (min-width: 768px) and (max-width: 985px) {
+	
+		.single-page-registration .form-horizontal .control-label {
+			float: left;
+			padding-top: 5px;
+			text-align: right;
+			width: 90px;
+		}
+		
+		.single-page-registration .form-horizontal .controls { margin-left: 110px; }
+		
+		.single-page-registration input[type="text"],
+		.single-page-registration input[type="password"],
+		.single-page-registration select { max-width: 160px; }
+		
+		.single-page-registration .radio.inline + .radio.inline { margin-left: 0; }
+		
+	}
+	
+	/* MOBILE ------------------------------
+	======================================== */
+	
+	@media (max-width: 768px) {
+		
+		.single-page-registration form { margin: 0 15px 1.428rem; }
+		
+	}
+    
+    
+	.ie7 .row-fluid .span6 {
+    		width: 43%;
+	}

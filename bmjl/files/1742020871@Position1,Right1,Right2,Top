@@ -1,0 +1,14 @@
+function OAS_RICH(position) {
+if (position == 'Position1') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/home.html/1397286570/Position1/default/empty.gif/58675178544653326d59514143546677?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right1') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/home.html/1832562649/Right1/default/empty.gif/58675178544653326d59514143546677?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right2') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/home.html/250391264/Right2/default/empty.gif/58675178544653326d59514143546677?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Top') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/home.html/784371733/Top/default/empty.gif/58675178544653326d59514143546677?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

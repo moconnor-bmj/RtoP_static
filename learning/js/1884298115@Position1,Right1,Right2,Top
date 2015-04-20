@@ -1,0 +1,14 @@
+function OAS_RICH(position) {
+if (position == 'Position1') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/course-intro/ECG skills.html/168718296/Position1/default/empty.gif/77525a5a416c546549496f414361644f?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right1') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/course-intro/ECG skills.html/2128897183/Right1/default/empty.gif/77525a5a416c546549496f414361644f?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right2') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/course-intro/ECG skills.html/1154209436/Right2/default/empty.gif/77525a5a416c546549496f414361644f?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Top') {
+document.write ('<A HREF="http://oas.services.bmj.com/5c/learning.bmj.com/learning/course-intro/ECG skills.html/786038513/Top/default/empty.gif/77525a5a416c546549496f414361644f?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}
