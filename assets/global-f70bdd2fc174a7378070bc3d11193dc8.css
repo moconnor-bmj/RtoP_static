@@ -3649,19 +3649,40 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 	content: "";
 	display: table
 }
-
+/* Between 240 & 480px = 1 x col */
 @media screen and (min-width: 15em) and (max-width: 30em) {
 .tile {
 	width: 100%
 }
 }
-
-@media screen and (min-width: 30em) {
+/* Bewteen than 480px & 768px = 2 x col */
+@media screen and (min-width: 30.063em) and (max-width: 48em)  {
 .tile {
 	float: left;
 	display: block;
 	margin-right: 2.35765%;
-	width: 30.97568%
+	width: 46.46367%
+}
+.tile:last-child {
+	margin-right: 0
+}
+.tile:nth-child(2n) {
+	margin-right: 0
+}
+.tile:nth-child(2n+1) {
+	clear: left
+}
+}
+.tiles-3-4 {
+	clear: both
+}
+/* Bewteen than 769px & 1280px = 3 x col */
+@media screen and (min-width: 48.063em) and (max-width: 80em)  {
+.tile {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 30.9757%
 }
 .tile:last-child {
 	margin-right: 0
@@ -3676,7 +3697,28 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 .tiles-3-4 {
 	clear: both
 }
-
+/* Greater than 1280px = 4 x col */
+@media screen and (min-width: 80em)  {
+.tile {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 23.2318%
+}
+.tile:last-child {
+	margin-right: 0
+}
+.tile:nth-child(4n) {
+	margin-right: 0
+}
+.tile:nth-child(4n+1) {
+	clear: left
+}
+}
+.tiles-3-4 {
+	clear: both
+}
+/* Greater than 900px with sidebar = 3 x col */
 @media screen and (min-width: 56.25em) {
 .tiles-3-4 {
 	clear: none;
