@@ -1,0 +1,59 @@
+{
+    "professions": [
+        {
+            "text": "Foundation Doctor",
+            "order": 0,
+            "masterIcsValue": "171"
+        },
+        {
+            "text": "GP/Family Physician",
+            "order": 1,
+            "masterIcsValue": "154"
+        },
+        {
+            "text": "Hospital Doctor/Secondary Care Physician",
+            "order": 3,
+            "masterIcsValue": "173"
+        },
+        {
+            "text": "Hospital Doctor/Secondary Care Physician - Trainee",
+            "order": 4,
+            "masterIcsValue": "174"
+        },
+        {
+            "text": "GP/Family Physician - Trainee",
+            "order": 5,
+            "masterIcsValue": "172"
+        },
+        {
+            "text": "Nurse",
+            "order": 6,
+            "masterIcsValue": "176"
+        },
+        {
+            "text": "Nurse Specialist/Nurse Practitioner",
+            "order": 7,
+            "masterIcsValue": "175"
+        },
+        {
+            "text": "Paramedic",
+            "order": 8,
+            "masterIcsValue": "138"
+        },
+        {
+            "text": "Pharmacist",
+            "order": 9,
+            "masterIcsValue": "90"
+        },
+        {
+            "text": "Student",
+            "order": 10,
+            "masterIcsValue": "41"
+        },
+        {
+            "text": "Other",
+            "order": 11,
+            "masterIcsValue": "8"
+        }
+    ]
+}
